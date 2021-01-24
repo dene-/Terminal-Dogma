@@ -53,7 +53,7 @@
 
 <svelte:window bind:innerHeight bind:innerWidth />
 
-{#if loading}
+{#if loading && count}
     <div id="grid">
         <div
             class="loader"

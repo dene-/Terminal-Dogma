@@ -6,3 +6,4 @@ dist
 /runtime/app.mjs
 /runtime/server.mjs
 /.vscode/settings.json
+/src/node_modules

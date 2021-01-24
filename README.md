@@ -7,7 +7,7 @@ Image upscaler using waifu2x. It will automatically download Ubuntu scripts and 
 Once you have created the project, install dependencies and run the project in development mode:
 
 ```bash
-cd my-app
+cd Terminal-Dogma
 npm install # or yarn
 npm run dev
 ```

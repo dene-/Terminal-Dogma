@@ -48,7 +48,8 @@
         content: " ";
         display: block;
         width: 100vw;
-        left: -50%;
+        transform: translateX(-50%);
+        transform-origin: center;
         top: 0;
         height: 5px;
         position: absolute;
@@ -60,14 +61,15 @@
         content: " ";
         display: block;
         width: 100vw;
-        left: 50%;
+        transform: translateX(50%);
+        transform-origin: center;
         bottom: 0;
         height: 5px;
         position: absolute;
         background: red;
         box-shadow: 0px 0px 20px rgba(255, 0, 0, .5);
     }
-
+    
     .hex span {
         color: rgb(27, 27, 27);
         text-transform: uppercase;

@@ -1,7 +1,6 @@
-# sapper-template
+# Terminal Dogma
 
-The default template for setting up a [Sapper](https://github.com/sveltejs/sapper) project. Can use either Rollup or webpack as bundler.
-
+Image upscaler using waifu2x. It will automatically download Ubuntu scripts and models once you start the server.
 
 ## Getting started
 

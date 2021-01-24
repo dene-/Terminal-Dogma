@@ -1,6 +1,6 @@
 {
-  "name": "Wifeu",
-  "description": "Wifeu",
+  "name": "Terminal Dogma",
+  "description": "Image upscaler using waifu2x neural net.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

@@ -55,7 +55,7 @@
 </script>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Terminal Dogma</title>
 </svelte:head>
 
 <HexLoader {loading} />

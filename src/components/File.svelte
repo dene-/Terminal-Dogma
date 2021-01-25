@@ -26,6 +26,7 @@
     bind:files={files}
     id="fileInput"
     accept="image/*"
+    multiple="false"
 />
 
 <style>

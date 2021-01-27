@@ -78,6 +78,7 @@
         font-size: 5vw;
         position: absolute;
         z-index: 1;
+        user-select: none;
     }
 
     .hex svg {

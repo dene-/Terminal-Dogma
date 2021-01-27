@@ -30,7 +30,7 @@ if (!fs.existsSync(__dirname + '/uploads')) {
 	fs.mkdirSync(__dirname + '/uploads');
 }
 
-app.post('/yamete', (req, res) => {
+app.post('/api/enhance', (req, res) => {
 	upload(req, res, async (err) => {
 		if (err) {
 			console.log(err);

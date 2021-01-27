@@ -33,7 +33,7 @@
 		// Activate loader
 		loading = true;
 
-		fetch("/yamete", {
+		fetch("/api/enhance", {
 			method: "POST",
 			body: _formData,
 		})

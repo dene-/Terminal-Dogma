@@ -3,19 +3,23 @@
 </script>
 
 <button class="mt10 mb10" on:click={onclick} {disabled}>
-    <span>{text}</span>
+    {text}
 </button>
 
 <style>
     button {
-        font-family: 'Acumin Pro', Helvetica, sans-serif !important;
-        color: #f89504;
-        height: 100px;
-        background: transparent;
-        text-align: center;
-        outline: 0;
-        font-size: 1.1rem;
         display: inline-block;
+        padding: 10px 5px 0 5px;
+        
+        font-size: 45px;
+        font-weight: 800;
+        font-family: 'Acumin Pro', Helvetica, sans-serif !important;
+        text-align: center;
+
+        background: transparent;
+        color: #f89504;
+
+        outline: 0;
         border: 5px solid #f89504;
         border-radius: 15px;
         transition: 0.1s linear;
@@ -26,14 +30,6 @@
         background: #f89504;
         color: rgb(27, 27, 27);
         cursor: pointer;
-    }
-
-    button > span {
-        font-size: 30px;
-        font-weight: bold;
-        /*transform: scaleY(3.5);*/
-        transform-origin: left;
-        display: inline-block;
     }
 
     button:disabled {

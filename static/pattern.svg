@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 100 100" overflow="visible" xml:space="preserve">
+<g>
+	<polygon fill="#FF0000" points="80,0 0,80 0,100 20,100 100,20 100,0 	"/>
+	<polygon fill="#FF0000" points="20,0 0,20 0,0 	"/>
+	<polygon fill="#FF0000" points="100,80 100,100 80,100 	"/>
+</g>
+</svg>
